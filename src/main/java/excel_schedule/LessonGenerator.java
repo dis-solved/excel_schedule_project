@@ -25,7 +25,10 @@ public class LessonGenerator {
                     schedule.get(i).getFrom(),
                     schedule.get(i).getTo(),
                     startDate = startDate.with(TemporalAdjusters.nextOrSame(schedule.get(i).getDay()))));
-            plannedHours += (double)(Duration.between(schedule.get(i).getFrom(), schedule.get(i).getTo()).toMinutes())/60;
+            plannedHours += (double) (Duration.between(
+                    schedule.get(i).getFrom(),
+                    schedule.get(i).getTo()).toMinutes()
+            ) / 60;
             i++;
             startDate = startDate.plusDays(1);
             if (i == schedule.size()) {

@@ -15,17 +15,22 @@ public class LessonGeneratorTest {
     public void shouldGenerateCorrectLesson() {
         int hours = 9;
         LocalDate start = LocalDate.of(2019, 6, 1);
-        List<ScheduleLesson> onceAWeek = Arrays.asList(new ScheduleLesson(DayOfWeek.MONDAY, LocalTime.of(18, 0), LocalTime.of(21, 0)));
+        List<ScheduleLesson> onceAWeek = Arrays.asList(new ScheduleLesson(DayOfWeek.MONDAY, LocalTime.of(18, 30), LocalTime.of(20, 0)));
 
         LessonGenerator lessonGenerator = new LessonGenerator(hours, start);
         List<Lesson> generatedLessons = lessonGenerator.generateLessons(onceAWeek);
 
-        Assert.assertThat(generatedLessons, Matchers.hasSize(3));
-        Assert.assertThat(generatedLessons.get(0), Matchers.equalTo(new Lesson(
-                LocalTime.of(18, 0),
-                LocalTime.of(21, 0),
+        Assert.assertThat(generatedLessons, Matchers.hasSize(6));
+
+        Assert.assertThat(generatedLessons, Matchers.hasItem(new Lesson(
+                LocalTime.of(18, 30),
+                LocalTime.of(20, 00),
                 LocalDate.of(2019, 6, 3)))
         );
-        // more asserts....
+        Assert.assertThat(generatedLessons.get(2), Matchers.equalTo(new Lesson(
+                LocalTime.of(18, 30),
+                LocalTime.of(20, 0),
+                LocalDate.of(2019, 6, 17)))
+        );
     }
 }

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f442abe4-1037-4cd7-93bc-02f8a37606fc" name="Default" comment="">
+    <list default="true" id="f442abe4-1037-4cd7-93bc-02f8a37606fc" name="Default" comment="added">
+      <change afterPath="$PROJECT_DIR$/sample.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/excel_workbook/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/excel_schedule/ScheduleReaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,20 +31,8 @@
       <file leaf-file-name="LessonGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lesson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="354">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +43,58 @@
       <file leaf-file-name="ScheduleApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LessonGeneratorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleReaderTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/ScheduleReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matchers.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/org/hamcrest/Matchers.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="222" column="33" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+              <folding>
+                <element signature="e#7398#7399#0" expanded="true" />
+                <element signature="e#7450#7451#0" expanded="true" />
+                <element signature="e#8102#8103#0" expanded="true" />
+                <element signature="e#8152#8153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,45 +103,31 @@
       <file leaf-file-name="ScheduleReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LessonGeneratorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matchers.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/org/hamcrest/Matchers.class">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseInformation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,32 +135,17 @@
       <file leaf-file-name="ScheduleLesson.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
                 <element signature="e#507#508#0" expanded="true" />
                 <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
                 <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/schedule.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -177,16 +190,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/LessonSchedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_workbook/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleExcelGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java" />
-        <option value="$PROJECT_DIR$/schedule.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java" />
+        <option value="$PROJECT_DIR$/schedule.txt" />
+        <option value="$PROJECT_DIR$/sample.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/excel_schedule/ScheduleReaderTest.java" />
       </list>
     </option>
   </component>
@@ -218,8 +233,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="24" />
-    <option name="y" value="299" />
+    <option name="x" value="7" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -306,74 +320,6 @@
             <path>
               <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
-              <item name="temporal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="excel_schedule" type="b2602c69:ProjectViewProjectNode" />
@@ -511,18 +457,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LessonGeneratorTest.shouldGenerateCorrectLesson">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excel_workbook.App" />
-      <module name="excel_schedule" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="excel_workbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.ScheduleApp">
     <configuration name="ScheduleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="excel_schedule.ScheduleApp" />
       <module name="excel_schedule" />
@@ -537,6 +472,29 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="LessonGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="excel_schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excel_schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="excel_schedule" />
+      <option name="MAIN_CLASS_NAME" value="excel_schedule.LessonGeneratorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="excel_schedule" />
       <extension name="coverage">
@@ -550,6 +508,52 @@
       <option name="PACKAGE_NAME" value="excel_schedule" />
       <option name="MAIN_CLASS_NAME" value="excel_schedule.LessonGeneratorTest" />
       <option name="METHOD_NAME" value="shouldGenerateCorrectLesson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ScheduleReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="excel_schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excel_schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="excel_schedule" />
+      <option name="MAIN_CLASS_NAME" value="excel_schedule.ScheduleReaderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="excel_schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excel_schedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="excel_schedule" />
+      <option name="MAIN_CLASS_NAME" value="excel_schedule.ScheduleReaderTest" />
+      <option name="METHOD_NAME" value="shouldReadScheduleCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -599,15 +603,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.ScheduleApp" />
       <item itemvalue="JUnit.LessonGeneratorTest.shouldGenerateCorrectLesson" />
+      <item itemvalue="JUnit.LessonGeneratorTest" />
+      <item itemvalue="JUnit.ScheduleReaderTest" />
+      <item itemvalue="JUnit.ScheduleReaderTest.shouldReadScheduleCorrectly" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LessonGeneratorTest.shouldGenerateCorrectLesson" />
         <item itemvalue="Application.ScheduleApp" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.LessonGeneratorTest.shouldGenerateCorrectLesson" />
+        <item itemvalue="JUnit.ScheduleReaderTest.shouldReadScheduleCorrectly" />
+        <item itemvalue="JUnit.ScheduleReaderTest" />
+        <item itemvalue="JUnit.LessonGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -623,7 +631,7 @@
       <updated>1557738650795</updated>
       <workItem from="1557738654781" duration="16632000" />
       <workItem from="1558465667378" duration="7161000" />
-      <workItem from="1558946899687" duration="36122000" />
+      <workItem from="1558946899687" duration="45747000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1557741685905</created>
@@ -653,40 +661,50 @@
       <option name="project" value="LOCAL" />
       <updated>1559041515363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added LessonGeneratorTest class">
+      <created>1559057596265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559057596265</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.27 at 23h 16m 04s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 08m 28s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.27 at 23h 17m 39s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 16m 03s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.27 at 23h 19m 16s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 17m 47s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.27 at 23h 21m 20s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest - 2019.05.28 at 22h 20m 14s.xml">
+      <configuration name="ScheduleReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 16h 54m 17s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 22m 33s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 24m 46s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 24m 30s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 26m 32s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 29m 43s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 27m 11s.xml">
-      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 34m 20s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 27m 47s.xml">
+    <history-entry file="ScheduleReaderTest_shouldReadScheduleCorrectly - 2019.05.28 at 22h 36m 12s.xml">
+      <configuration name="ScheduleReaderTest.shouldReadScheduleCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 22h 36m 22s.xml">
       <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59915000" />
+    <option name="totallyTimeSpent" value="69540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,7 +758,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Excel schedule application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excel schedule application" />
+    <MESSAGE value="added LessonGeneratorTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,23 +767,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23474">
-          <caret line="1201" column="15" selection-start-line="1201" selection-start-column="15" selection-end-line="1201" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleExcelGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/time/LocalTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30536">
@@ -1011,26 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1049,59 +1031,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/org/hamcrest/Matchers.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="836">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1115,41 +1069,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="440">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="354">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/org/hamcrest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="222" column="33" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="33" />
+          <folding>
+            <element signature="e#7398#7399#0" expanded="true" />
+            <element signature="e#7450#7451#0" expanded="true" />
+            <element signature="e#8102#8103#0" expanded="true" />
+            <element signature="e#8152#8153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+        <state relative-caret-position="352">
+          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/ScheduleReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

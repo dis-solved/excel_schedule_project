@@ -18,24 +18,12 @@ public class ScheduleLesson {
         return day;
     }
 
-    public void setDay(DayOfWeek day) {
-        this.day = day;
-    }
-
     public LocalTime getFrom() {
         return from;
     }
 
-    public void setFrom(LocalTime from) {
-        this.from = from;
-    }
-
     public LocalTime getTo() {
         return to;
-    }
-
-    public void setTo(LocalTime to) {
-        this.to = to;
     }
 
     @Override
