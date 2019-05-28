@@ -1,6 +1,7 @@
 package excel_schedule;
 
 import java.time.*;
+import java.util.Objects;
 
 
 public class Lesson {
@@ -24,5 +25,21 @@ public class Lesson {
 
     public LocalDate getDate() {
         return date;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Lesson lesson = (Lesson) o;
+        return Objects.equals(from, lesson.from) &&
+                Objects.equals(to, lesson.to) &&
+                Objects.equals(date, lesson.date);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(from, to, date);
     }
 }

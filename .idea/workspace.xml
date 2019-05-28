@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f442abe4-1037-4cd7-93bc-02f8a37606fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schedule.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleExcelGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/excel_workbook/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +25,8 @@
       <file leaf-file-name="LessonGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
+            <state relative-caret-position="308">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,16 +37,19 @@
       <file leaf-file-name="Lesson.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="200">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScheduleApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScheduleApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="-86">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LessonGeneratorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LessonGeneratorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="244">
+              <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,16 +177,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/LessonSchedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleLesson.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_workbook/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleExcelGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/CourseInformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" />
         <option value="$PROJECT_DIR$/schedule.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java" />
       </list>
     </option>
   </component>
@@ -224,6 +218,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="24" />
+    <option name="y" value="299" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -515,7 +511,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScheduleApp">
+  <component name="RunManager" selected="JUnit.LessonGeneratorTest.shouldGenerateCorrectLesson">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="excel_workbook.App" />
       <module name="excel_schedule" />
@@ -609,8 +605,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScheduleApp" />
         <item itemvalue="JUnit.LessonGeneratorTest.shouldGenerateCorrectLesson" />
+        <item itemvalue="Application.ScheduleApp" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -627,7 +623,7 @@
       <updated>1557738650795</updated>
       <workItem from="1557738654781" duration="16632000" />
       <workItem from="1558465667378" duration="7161000" />
-      <workItem from="1558946899687" duration="34091000" />
+      <workItem from="1558946899687" duration="36122000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1557741685905</created>
@@ -650,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558025011440</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Excel schedule application">
+      <created>1559041515363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559041515363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,9 +669,24 @@
     <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.27 at 23h 21m 20s.xml">
       <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 16h 54m 17s.xml">
+      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 24m 46s.xml">
+      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 26m 32s.xml">
+      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 27m 11s.xml">
+      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonGeneratorTest_shouldGenerateCorrectLesson - 2019.05.28 at 17h 27m 47s.xml">
+      <configuration name="LessonGeneratorTest.shouldGenerateCorrectLesson" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57884000" />
+    <option name="totallyTimeSpent" value="59915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,6 +699,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946237" weight="0.32992035" />
@@ -720,11 +739,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Excel schedule application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excel schedule application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1029,13 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1046,31 +1059,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/org/hamcrest/Matchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,20 +1088,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/schedule.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,10 +1115,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/ScheduleApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/Lesson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="200">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel_schedule/LessonGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/excel_schedule/LessonGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

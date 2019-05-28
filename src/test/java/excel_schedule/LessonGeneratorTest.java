@@ -21,7 +21,7 @@ public class LessonGeneratorTest {
         List<Lesson> generatedLessons = lessonGenerator.generateLessons(onceAWeek);
 
         Assert.assertThat(generatedLessons, Matchers.hasSize(3));
-        Assert.assertThat(generatedLessons, Matchers.hasItem(new Lesson(
+        Assert.assertThat(generatedLessons.get(0), Matchers.equalTo(new Lesson(
                 LocalTime.of(18, 0),
                 LocalTime.of(21, 0),
                 LocalDate.of(2019, 6, 3)))
